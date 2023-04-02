@@ -1,0 +1,886 @@
+/* BANNER HEADER */
+.smart-slider-wrapper .content-middle {
+	top: 38% !important;
+}
+.generic-request-form .form .dropdown {
+	color: #8f8f8f !important;
+}
+
+.generic-request-form label {
+	color: #666 !important;
+}
+
+@media (min-width: 769px) {
+	.easy-add-to-cart-section .easy-add-to-cart-slider-slide-match-detail__team {
+		top: -40px !important;
+	}
+}
+
+.lang-ar .product-quantities .quantity-selector.select-menu .quantity-select-dropdown {
+    text-align: center;
+    padding-right: 0;
+}
+
+
+
+/* REGISTER YOU INTEREST BUTTON */
+/*
+.content p a {
+    color: #fff !important;
+    border: solid 3px #FFF;
+	background: #8a1539;
+    padding: 20px !important;
+    margin-top: 20px !important;
+    font-weight: bold !important;
+	text-decoration: none;
+	transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all
+}
+*/
+/* JOIN MAILING LIST BUTTON */
+/* 
+button.btn-accept.btn-slanted {
+    color: #fff !important;
+    border: solid 3px #FFF;
+    font-weight: bold !important;
+	text-decoration: none;
+	transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all
+}
+.content p a:hover,
+.content p a:focus {
+    color: #fff !important;
+	background: #c21e50 !important;
+	border: solid 3px #c21e50 !important;
+    font-weight: bold !important;
+	text-decoration: none;
+	transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all
+}
+button.btn-accept.btn-slanted:hover,
+button.btn-accept.btn-slanted:focus {
+    color: #fff !important;
+	background: #8a1539;
+    border: solid 3px #8a1539;
+    font-weight: bold !important;
+	text-decoration: none;
+	transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all
+}
+/* 
+/* END OF REGISTER YOU INTEREST BUTTON */
+/* END OF JOIN MAILING LIST BUTTON */
+
+@media all and (max-device-width: 768px) {
+	.content p {
+		font-size: 22px;
+		margin: 0 0 50px 0;
+	}
+}
+@media all and (max-device-width: 360px) {
+	.content p {
+		font-size: 14px;
+		margin: 0 0 50px 0;
+	}
+}
+
+.generic-request-form .form .dropdown[value="+93"] {
+	color: red !important;
+}
+
+
+@media (min-width:768px) {
+.itt-registration {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;	
+}
+}
+
+.navbar-fixed-top .fi-section-header__competition .fi-section-header__competition__title span {
+    display: initial!important;
+    font-family: Qatar2022Medium,Arial,sans-serif !important;
+}
+
+.lang-ar .fi-section-header__wrap .fwc22-floatingmenu-collapsed {
+	
+	left: 20px;
+}
+
+.countdown {
+    background-color: #fff;
+}
+.countdown span {
+    color: #8a1539;    
+}
+
+.timeblock .subtitle {
+    font-size: 28px !important;
+}
+
+.timeblock > span {
+    font-size: 70px !important;
+}
+
+#match-schedule {
+    background: #8a1539!important;
+    border-color: #8a1539!important;
+    color: #fff!important;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.fi-footer-link .social-nav {
+	display: flex;    
+    font-size: 25px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+}
+.social-item {
+    margin-right: 10px;
+}
+
+.social-item a {
+    color: #fff !important;
+}
+
+.row-disclaimer {
+	background-color: #fff !important;
+	padding: 20px;
+}
+
+.generic-request-form .form .checkboxes.alternate>div label, .generic-request-form .form .checkboxes.alternate>li label {
+	display: inline-block !important;
+}
+
+.bottom-expanded.col-xs-12.no-padding.checkboxes .error {
+    padding-left: 0px;
+}
+
+@media (max-width:768px) {
+	.usp-slider-text-block p {
+		margin: 0 auto;
+		max-width: 450px !important;
+		font-size: 22px;
+		line-height: 30px;
+		color: #FFF;
+	}
+}
+
+@media (min-width: 1024px) {
+.site-header.-compact .primary-nav {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+}
+
+@media (max-width:900px) {
+.lang-ar .stadium-hosted-fixtures-listing-item-cta__price {    
+    font-size: 10px !important;    
+}
+.lang-ar .stadium-hosted-fixtures-listing-item-cta__view {    
+    font-size: 10px !important;   
+}
+}
+
+@media (max-width: 568px){
+	.lang-ar .hero-area.-stadium .hero-area-stadium__title-wrapper {    
+		margin-right: 25% !important;
+	}
+	.lang-ar .hero-area.-stadium .hero-area-stadium__title-wrapper {    
+		width: 50% !important;
+	}
+}
+
+
+ul.hamburger-menu-actions li:nth-child(2) {
+    display: none;
+}
+
+.stadium-hosted-fixtures-listing-item.-tbc .stadium-hosted-fixtures-listing-item-match-detail {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: 90px;
+}
+
+@media (max-width: 568px) {
+.btn.-large {    
+    font-size: 16px !important;
+}
+}
+
+.primary-nav > ul > li {
+    padding: 0 !important;
+}
+
+.primary-nav > ul > li > a {
+    display: block;
+    padding: 15px 15px 40px;
+}
+
+.fwc22-popup-separator {
+justify-content: center !important;	
+}
+
+html[lang="es"] .preview-title .title-container .title {
+    color: #8a1539;
+    margin-left: 5px;
+    font-size: 10pt;
+}
+
+form#HamburgerSearch {
+    display: none;
+}
+
+.fwc22-shopping-cart-preview span {    
+    font-size: smaller !important;
+}
+
+.my-orders.mobile-mode .product-type {
+    height: 75px;
+}
+.atc-fwc22 .hotels .title {
+    display: none;
+}
+
+.atc-fwc22 .flights .title {
+    display: none;
+}
+
+@media (max-width: 768px)
+{
+    .shuttle-flight-container .flightImage {    
+        display: none;    
+	}
+	
+	html[lang="ru"] .primary-nav > ul > li > a {    
+    	padding: 5px 5px 40px !important;
+	}
+}
+	
+@media (max-width: 1100px)
+{
+	html[lang="ru"] .primary-nav > ul > li > a {    
+    	padding: 5px 5px 40px !important;
+	}	
+}	
+
+
+html[lang="ru"] .experience-qatar {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+
+.new-checkout .flight-amount .data-line.subtotal {
+    display: none !important;
+}
+
+
+.user-dashboard .section-text, .user-dashboard p {
+    color: #666 !important;    
+}
+
+
+
+.FAC21 .fwc22-shopping-cart-preview .matchlabel {
+    margin-right: 4px;
+}
+
+.contact-box option {
+    color: #000;
+}
+
+.fwc22-shopping-cart-preview .section-item-bundle.offsite .matches-section-title-icon {
+    -webkit-filter: invert(75%) sepia(18%) saturate(1058%) hue-rotate(8deg) brightness(84%) contrast(85%);
+    filter: invert(75%) sepia(18%) saturate(1058%) hue-rotate(8deg) brightness(84%) contrast(85%);
+}
+
+.shuttle-flights label.date {
+    display: none;
+}
+
+/*Travel fixed Add to Cart */
+.footer-section__actions__buy__fixed {
+    display: none !important;
+}
+
+.hotel-filters__section--active {
+    background-color: #baa256!important;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .hero-play-icon {    
+		display: none;
+	}
+
+	.hero-area__video {    
+		display: none;
+	}
+	.hero-area__video video {    
+		display: none;
+	}
+}
+
+/*hide video in stadiums page for mobile*/
+
+@media (max-width: 480px) {
+    .flight-list-product-flight-detail .flp-from-to-locations {
+        width: 92% !important
+    }
+}
+
+
+
+@media (max-width: 568px) {
+
+	.select-package-block {
+		padding: 60px 0px 20px !important;
+	}
+	
+	.select-package-block span.select-package-block__heading.-h1-font {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	
+}
+
+@media (max-width: 568px) {
+	.stadium-hosted-fixtures-listing-item-cta:hover .stadium-hosted-fixtures-listing-item-cta__view {
+		width: 50% !important;
+	}
+	html[lang="ru"] .stadium-hosted-fixtures-listing-item-cta__price {    
+    	font-size:smaller;
+	}
+}
+
+html[lang="ar"] .preview-title .itemNumContainer {
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.cbq_billinginfo #CCNimg_VISA {
+	width: 100px;
+}
+
+html[lang="ru"] .language-selector__options {    
+    left: 24px !important;
+	width: 123px !important;    
+}
+
+.primary-nav .explore-packages-submenu .product-column {
+    flex-basis: 50%;
+}
+
+.primary-nav .explore-packages-submenu {
+    min-width: 767px;
+}
+
+.hamburger-menu .explore-packages-submenu .product-column.travel {
+    margin-bottom: 0;
+}
+
+.explore-packages-submenu a {
+    display: block;
+}
+
+/* FWWC23 */
+.fwwc23-register-interest .row {
+    max-width: 100%;
+}
+
+.fww23-request-quote .vs__dropdown-menu {
+    background: var(--base-color-third) !important;
+    min-width: fit-content;
+}
+
+.fww23-request-quote .vs__dropdown-menu li {
+    font-family: var(--base-font-family) !important;
+    color: white !important;
+    font-size: 12px !important;
+}
+
+.fww23-request-quote .contact-box span.vs__selected {
+    background: var(--base-color);
+}
+
+.fww23-request-quote .contact-box option {
+    background: var(--base-color-third);
+    color: white;
+}
+
+.flight-card--fill .flight-card-details__image {    
+    height: auto !important;
+}
+
+.flight-reservation .data-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field-validation-error {
+color: red;	
+}
+
+.travel-component .hotel-item.selected {    
+    margin-bottom: 5px;
+	    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.myAccountComponent svg.actions-column__trash-icon.svg-inline--fa.fa-trash.fa-w-14 {
+    display: none;
+}
+
+.myAccountComponent .header__column .check-column__input {
+	display: none;
+}
+
+@media (min-width: 1280px) {
+    .ecommerce.myAccountComponent .order .order-products-wrapper .order-products .order-product-line {
+        grid-template-columns: 1.2fr 1fr;
+    }
+}
+
+.ecommerce.myAccountComponent .order .order-products-wrapper .order-products .order-product-line--tickets-assigned,
+.ecommerce.myAccountComponent .order .order-products-wrapper .order-products .order-product-line--tickets-pending {
+    font-size: 14px;
+}
+
+.sfac22 ul.basket-items .sessionsProduct {
+    display: none;
+}
+
+
+
+.flight-card--fill .flight-card-details__image {    
+    height: auto !important;
+}
+
+
+.field-validation-error {
+   color: red;	
+}
+
+.venue-container.ATS .venue-details {
+    display: none !important;
+}
+
+.atc-fwc22 .request-info-btn {display: none;}
+
+.stadium-hosted-fixtures-listing-item-match-detail__date {
+    width: 50% !important;
+}
+
+.stadium-hosted-fixtures-listing-item-match-detail__team > span {
+    font-size: 15px !important;
+	text-align: center;
+}
+
+#fwc22ATC .soldOutBanner {
+	top: 55px;
+}
+
+@media (max-width: 992px) and (orientation: portrait){
+    #fwc22ATC .single-match-package-info .soldOutBanner {
+		top: 100px;
+	}
+}
+
+@media (max-width: 768px){
+    .session-option--teams span {
+        font-size: 10px;
+    }
+    .order .order-products-wrapper .order-products .order-product-line .session-selector .session-option--teams .flag{
+        width: 25px;
+    }
+    .order .order-products-wrapper .order-products .order-product-line .session-selector .session-option--teams{
+        align-items: center;
+    }
+}
+
+.product-tfv-amount-labels, .product-tfv-amount-values,
+.total-tfv-labels, .total-tfv-values {
+     display: none !important;	
+}
+
+.newshoppingcart .add-more-banner-wrapper .add-more-banner .banner-btn {
+      min-width: auto;
+}
+
+.sold-out-register .input-row input[type=text], .sold-out-register .input-row select {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border: 1px solid var(--base-border-color);
+    background-color: #fff;
+}
+
+.sold-out-register .input-row textarea {
+    width: 97%;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+@media (max-width: 568px){
+	.travel-component .step-content.-stepsFixed {
+		margin-top: 18rem;
+	}
+}
+
+.myAccountComponent .option-wrapper .option .left-icon img {   
+    mix-blend-mode: multiply;
+}
+
+#FWC22 .topics-panel {
+    display: flex;
+}
+
+.atc-fwc22 .travel-section.flights {
+    display: none !important;
+}
+
+/*Add to Cart Sections Reordering*/
+.atc-fwc22 .product-results > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.atc-fwc22 .team-specific-series.product-result {
+    order: 2;
+}
+
+.atc-fwc22 .single-match-package.product-result {
+    order: 1;
+}
+
+.atc-fwc22 .final-round-series.product-result {
+    order: 3;
+}
+
+.atc-fwc22 .venue-series.product-result {
+    order: 4;
+}
+
+.atc-fwc22 .amazing-series.product-result {
+    order: 5;
+}
+/*Add to Cart Sections Reordering*/
+
+
+.match-house__banner {
+    background-color: #000000 !important;
+}
+
+
+/*  TEMPORAL  */ 
+
+.lang-ar .service-accomodation .total-reservations {
+	text-align: start;	
+}
+
+.lang-ar .service-add-guest-form .session,
+.lang-ar .service-add-guest-form .number-tickets-assign .label-selector,
+.lang-ar .add-guest-from-management__body .guests-available, 
+.lang-ar .add-guest-from-management__body .session,
+.lang-ar .service-add-guest-form .guest-data .account-holder-check-container
+{
+	justify-content: flex-start;
+}
+
+.lang-ar .service-add-guest-form .guest-data .form-section-inputs .input-row.required:after {
+	right: calc(100% - 10px);
+}
+
+.lang-ar .service-add-guest-form .guest-data .account-holder-check-container .check-container {
+	flex-direction: row;	
+}
+
+.lang-ar .service-add-guest-form .number-tickets-assign .input-row.required:after {
+	right: calc(100% - 410px);
+}
+
+.lang-ar .flight-ticket .flight {
+	display: flex;
+    flex-direction: column;
+    text-align: right !important;
+    padding-right: 24%;
+}
+
+@media (max-width: 768px) {
+	.easy-add-to-cart-section .easy-add-to-cart-slider-slide__content.-tbc .match-detail-team__flag {
+		margin-top: 12px;
+   		margin-bottom: 36px;
+	}
+}
+
+.guest-table-content .guest-row .guest-cell.more[data-v-0d5b3a8a] {
+	flex-basis: 25% !important;
+	align-items: flex-end !important;
+}
+
+.shipping-preferences-order .title .status.not-confirmed {
+    color: red;
+    font-size: small;
+    font-weight: 400 !important;
+    display: none;
+}
+
+.add-to-cart-wishlist select.select-qty-dropdown {
+    text-align: center;
+}
+
+.add-to-cart-wishlist .quantity-selector input {
+    text-align: center;
+}
+
+.wishlist .category-wishlist__title {
+    display: none;
+}
+
+.myAccountComponent .parking-orders-list-wrapper .order-sessions {
+	display: none !important;
+}
+
+.myAccountComponent .parking-orders-list-wrapper .order-total-amount {
+    display: none;
+}
+
+.calendar .thead-default .month-selector th {
+	text-transform: capitalize;	
+}
+
+.special-request-hospitality-area-form-content p.error-message {
+    text-align: center;
+    padding-top: 30px;
+    color: #8a1539;
+}
+
+.shipping-preferences-order .order-body .collections-text {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #856404;
+    padding-bottom: 14px!important;
+    border: solid 1px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 992px) { 
+
+	.atc-table-column.column-category .category, .atc-table-column.column-price span {
+		font-weight: 700;
+		font-family: var(--base-corp-font-thin),Arial,sans-serif;
+		font-size: 13px !important;
+	}
+
+	.single-match-package-content .table-disclaimer {
+		font-family: var(--base-corp-font-thin),Arial,sans-serif;
+		font-size: 13px !important;
+	}
+
+}
+
+@media (min-width: 1281px)
+{
+
+	.myAccountComponent {
+		width: 1400px !important;
+		max-width: auto !important;
+	}
+
+	.ecommerce.myAccountComponent .menuOptions {
+		width: 25% !important;
+	}
+
+
+	.guest-table-content .guest-row .guest-cell.name {    
+		flex-basis: 25% !important;
+	}
+
+	.guest-cell.off {
+		flex-basis: 25%  !important;
+	}
+
+	.guest-table-filters .guest-filter.name[data-v-05cbd185] {
+		flex-basis: 25% !important;
+	}
+
+	.guest-filter.off {
+		flex-basis: 25% !important;
+	}
+
+}
+
+.single-match-package .summary {
+    display: none;
+}
+
+#SIN-layout .img-layout {
+	max-height: inherit !important;
+}
+
+
+.single-match-package-content .table-title {    
+    font-size: 15pt !important;    
+}
+
+html[lang="ar"] .primary-nav .explore-packages-submenu, html[lang="ru"] .primary-nav .explore-packages-submenu {
+    min-width: 980px !important;
+}
+
+html[lang="ar"] .primary-nav .explore-packages-submenu .product-column, html[lang="ru"] .primary-nav .explore-packages-submenu .product-column {
+    flex-basis: 30% !important;
+}
+
+html[lang="ar"] .primary-nav .explore-packages-submenu .product-column.offsite, html[lang="ru"] .primary-nav .explore-packages-submenu .product-column.offsite {
+    flex-basis: 40% !important;
+}
+
+.product-features-package-detail {
+    align-items: center;	
+}
+
+
+.hotel-catalogue-container .country-disclaimer, .hotel-catalogue-container #country-selected {
+	display: none !important;
+}
+
+
+.my-account-warning {
+    border: solid 1px #8a1539;
+    padding: 5px;
+    background-color: #fff3cd;
+    color: #856404;
+    margin-bottom: 10px;
+}
+
+.service-accomodation .download-voucher-section {
+    /*display: none;*/
+}
+
+.ticket-activation {
+	text-align: center;	
+}
+
+.ticket-activation_header-container p {
+	text-align: center;
+}
+
+.ticket-activation_container {
+	display: flex;
+	justify-content: center;
+}
+
+.ticket-activation-status {
+	display: flex;
+	justify-content: center;
+}
+
+
+.my-account-stadium-links .stadium-links-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+
+
+.my-account-stadium-links .stadium-link {
+	padding: 15px;
+	color: white;
+	background-color: var(--base-color-secondary);
+	font-weight: bold;
+	font-family: var(--base-corp-font-medium);
+	width: 200px;
+	height: 75px;
+}
+
+@media (max-width: 768px) {
+	.my-account-stadium-links .stadium-links-row {
+		margin-bottom: 0px;
+		flex-wrap: wrap;
+	}	
+	
+	.my-account-stadium-links .stadium-link {
+		width: 45%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		height: 75px;
+    }
+	
+	.my-account-stadium-links .stadium-links-row.stadium-header {
+		justify-content: center;	
+	}
+}
+
+.my-account-stadium-links .stadium-link img {
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.my-account-stadium-links .stadium-link:hover {
+	background-color: var(--base-color);
+}
+
+
+.product-column.travel .btn-image {
+	background-image: url('/media/6692/accommodation-main-navigation-image-buy-now.png');
+}
+
+
+.top-disclaimer {
+    display: block;    
+    text-align: center;
+    border: solid 1px #8a1539;
+    background-color: #baa256;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 39px;
+}
+
+.top-disclaimer-content {
+    font-family: var(--base-corp-font-thin),Arial,sans-serif;
+    font-size: 20px;
+    color: #666666;
+}
+
+.single-match-package-results .main-title { 
+    display: block;
+    width: 100%;
+}
+
+.easy-add-to-cart-section {
+	/*display: none !important;*/
+}
+
+
+.session-ticket-group .resend-ticket-button {
+	justify-content: center !important;
+}
+
+.hero-area.-stadium h1 p {
+    margin: 0;
+    max-width: none;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+
+@media (max-width: 568px) {
+.m-cart-disclaimer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;    
+}
+.m-cart-disclaimer img {
+transform: scale(0.8);
+}
+}

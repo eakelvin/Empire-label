@@ -1,0 +1,318 @@
+.atc-fwc22 .product-type-content {
+    min-height: 400px !important;
+}
+
+.atc-fwc22 .description {
+    font-size: 16px !important;
+}
+
+.team-specific-series-results .tss-name span {
+    line-height: 28pt;
+}
+
+.tss-short-description p, .tss-short-description span {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.tss-box-content .check {
+    padding: 5px 0 !important;
+}
+
+.round-types .filterCheck + .filterLabelCheck {
+    font-size: 17px !important;
+    padding-top: 6px;
+}
+
+.team-specifict-boxes-wrapper p.plus-sign {
+    margin: 10px 0 0;
+    font-size: 21px !important;
+    position: relative;
+    z-index: 1;
+}
+
+    .team-specifict-boxes-wrapper p.plus-sign:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 14px;
+        height: 14px;
+        background-color: #CECECE;
+        z-index: -1;
+        transform: translate(-50%,-50%) translateY(-2px) rotate(45deg);
+    }
+
+.team-specific-series-results .selected-team-name {
+    line-height: 34pt;
+    font-family: var(--base-corp-font-thin), "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.team-specific-series-results.show .footer {
+    margin-top: 1.5em;
+}
+
+.team-specific-series-results.show .checkout {
+    flex-shrink: 0;
+    flex-basis: 100% !important;
+}
+
+.add-more-banner .banner-description,
+.team-specific-series-results.show .footer .disclaimer {
+    font-family: var(--base-corp-font-thin), "Roboto", Arial, Helvetica, sans-serif;
+    line-height: 17px;
+}
+
+.add-more-banner .banner-description {
+    font-size: 14px;
+    margin-left: 1em;
+}
+
+.final-round-content .from-price,
+.venue-content .fromPrice {
+    margin-top: 5px;
+}
+
+.final-round-content .final-round-details {
+    margin-top: 20px;
+}
+
+.final-round-content-wrapper {
+    margin-top: 10px;
+}
+
+.venue-description-container span,
+.venue-description-container p,
+.venue-content .matches-available .matches-available-description,
+.venue-content .matches-available .matches-available-description p,
+.venue-content .category {
+    font-family: var(--base-corp-font-thin), "Roboto", Arial, Helvetica, sans-serif !important;
+}
+
+.atc-table-title {
+    font-family: var(--base-corp-font-medium), "Roboto", Arial, Helvetica, sans-serif !important;
+}
+
+.hotel-list__header.-fixed {
+    top: 257px;
+}
+
+@media screen and (min-width: 992px) {
+    .venue-series-results-details {
+        max-width: 50%;
+    }
+
+    .hotel-card--fill .hotel-card-budget {
+        display: block !important;
+        text-align: right;
+        padding: 2em 1.5em !important;
+    }
+
+        .hotel-card--fill .hotel-card-budget span {
+            display: inline-block !important;
+        }
+
+/*    .hotel-card--fill .hotel-card-budget__resume {
+        margin-bottom: 5px;
+        font-size: 1em !important;
+        color: #999 !important;
+    }*/
+
+    .hotel-card--fill .hotel-card-budget__quantity,
+    .hotel-card--fill .hotel-card-budget__price-room {
+        display: inline-block !important;
+        font-size: 1.2em !important;
+    }
+
+    .hotel-card--fill .hotel-card-budget__total {
+        display: block;
+        margin-top: 15px;
+    }
+
+        .hotel-card--fill .hotel-card-budget__total span {
+            display: inline-block;
+        }
+}
+
+@media screen and (max-width: 992px) {
+    .final-round-container .card-content {
+        display: block !important;
+    }
+
+    .summary-hotel-details .hotel-title {
+        padding: 0 10px;
+    }
+
+    .summary-hotel-details .hotels-amount {
+        padding: 0 15px;
+    }
+
+    .final-round-content .products-available {
+        margin-top: 15px;
+    }
+
+    .hotel-list__header.-fixed {
+        top: 273px;
+    }
+
+    .hotel-card--fill .hotel-card-budget__total {
+        margin-top: 15px;
+    }
+
+    .hotel-card--fill .hotel-card-budget__resume {
+        margin-bottom: 10px;
+    }
+
+    .steps .billing-address .eco-button,
+    .steps .shipping-address .eco-button,
+    .steps .billing-address button,
+    .steps .shipping-address button {
+        width: 100% !important;
+    }
+
+    .steps .billing-address .eco-button {
+        padding-top: 0 !important;
+    }
+
+    .steps .billing-address button,
+    .steps .shipping-address button {
+        margin-top: 15px;
+    }
+}
+
+.checkout-login .btn-accept:active {
+    background: var(--base-color-secondary) !important;
+    border: 0 !important;
+}
+
+.column-select input[type="radio"] + label, .column-select input[type="radio"]:checked + label,
+.atc-table-column.column-star .star-rating {
+    margin-top: 3px;
+}
+
+.search-hotel-form .v-select-search.seats .vs__search,
+.search-flight-hotel-form .v-select-search.seats .vs__search {
+    
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: 3px 5px;
+}
+
+.search-hotel-form .v-select-search.seats .vs__search {
+    background-image: url(/media/2082/sprite-icon-hotel.svg);
+}
+
+    @media screen and (max-width: 480px) {
+        .loading-card__text {
+            font-size: 1.75em !important;
+        }
+
+        .hotel-list__header--mobile,
+        .hotel-rooms__header,
+        .hotels-flights-atc__header {
+            display: block !important;
+            text-align: center;
+            margin: 0;
+        }
+
+            .hotel-list__header--mobile .fwc-btn,
+            .hotel-rooms__header .fwc-btn,
+            .hotels-flights-atc__header .fwc-btn {
+                margin: 5px 0 0 !important;
+                width: calc(100% - 55px);
+                max-width: none !important;
+            }
+
+        .hotel-rooms .fwc-btn.grey {
+            width: calc(100% - 55px) !important;
+        }
+
+        .hotel-card--fill .hotel-card-budget {
+            text-align: center;
+        }
+
+            .hotel-card--fill .hotel-card-budget > span {
+                display: inline-block;
+            }
+
+        .hotel-card--fill .hotel-card-budget__resume {
+            margin-bottom: 10px;
+            font-size: 1em !important;
+            color: #999 !important;
+        }
+
+        .hotel-card--fill .hotel-card-budget__quantity,
+        .hotel-card--fill .hotel-card-budget__price-room {
+            font-size: 1.4em !important;
+        }
+
+        .hotel-card--fill .hotel-card-budget__quantity {
+            margin-left: 5px;
+        }
+
+        .hotel-card--fill .hotel-card-budget__total {
+            margin-top: 15px;
+        }
+
+        .hotels-flights-atc .footer-section__actions__buy__total {
+            font-size: 1.6em !important;
+            margin-bottom: 10px;
+        }
+
+        .hotels-flights-atc .footer-section__actions__buy button {
+            padding: 0.75em 1em !important;
+        }
+
+            .hotels-flights-atc .footer-section__actions__buy button span {
+                font-size: 1.25em !important;
+                line-height: 1.25em;
+            }
+
+        .myAccountComponent .vs__selected-options {
+            height: auto !important;
+        }
+
+        .myAccountComponent .submit-btn {
+            float: none !important;
+            width: 100% !important;
+        }
+    }
+
+    .atc-table-title .icon-download {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.hotel-card-budget span {
+    font-family: var(--base-corp-font-thin);
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    [lang="ru"] .primary-nav > ul > li > a {
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .eco-popup .eco-popup__content {
+        padding: 5px 10px !important;
+    }
+
+    .ap-table-row span, .fp-table-row-column, .fp-table-header-column {
+        margin: 0 5px;
+    }
+
+    .accomodation-popup .ap-table-body .ap-table-row .check {
+        justify-content: center;
+    }
+
+    .accomodation-popup .ap-table-body .ap-table-row {
+        margin: 0
+    }
+}
+
+.order-filter .vs--searchable .vs__dropdown-toggle {
+    height: 35px;
+    font-family: var(--base-corp-font-thin);
+}

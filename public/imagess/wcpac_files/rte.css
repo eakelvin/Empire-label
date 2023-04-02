@@ -1,0 +1,113 @@
+/**umb_name:white*/
+.white{color: #FFFFFF}
+
+/**umb_name:silver*/
+.silver{color: #E4E4E4}
+
+/**umb_name:concrete*/
+.concrete{color: #B3B3B3}
+
+/**umb_name:red*/
+.red{color: #FF0000}
+
+/**umb_name:crimson*/
+.crimson{color: #AD1D1D}
+
+/**umb_name:space*/
+.space{color: #14192A}
+
+/**umb_name:navy*/
+.navy{color: #26304F}
+
+/**umb_name:olympic*/
+.olympic{color: #4CCAFF}
+
+/**umb_name:burgundy*/
+.burgundy {
+    color: #8a1539;
+}
+
+/**umb_name:headline*/
+.headline {
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 400px) {
+    .headline {
+        font-size: 30px;
+    }
+}
+
+.headline-qatar {
+    font-family: Qatar2022Bold;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 400px) {
+    .headline {
+        font-size: 30px;
+    }
+}
+
+
+/**umb_name:introtext*/
+.introtext {
+    font-family: Arial;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+/**umb_name:copytext*/
+.copytext {
+    font-family: Arial;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+/**umb_name:silv22 loose title*/
+.silv22-loose-title {
+    font-family: var(--base-corp-font-bold);
+}
+
+
+/**umb_name:silv22 tight text*/
+.silv22-tight-text {
+    font-family: var(--base-corp-font-thin);
+}
+
+/**umb_name:introtext-qatar*/
+.introtext-qatar {
+    font-family: Qatar2022Medium;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+/**umb_name:copytext-qatar*/
+.copytext-qatar {
+    font-family: Qatar2022Medium;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+/**umb_name:bodysize*/
+.bodysize {
+    font-size: 20px;
+}
+
+.explore-packages-submenu .icon svg {
+		width: 25px;	
+}

@@ -1,0 +1,31 @@
+
+window.TransformEventData = function(data) {
+
+    //Customer Types
+    var soleIndex = -1;
+    for (i = 0; i < data.BasicCodes.CustomerTypes.length; i++) {
+        if (data.BasicCodes.CustomerTypes[i].code == 'SOLE') {
+            soleIndex = i;
+            break;
+        }
+    }
+    
+    var soleElement = data.BasicCodes.CustomerTypes[soleIndex];
+    if(soleIndex>=0){
+        data.BasicCodes.CustomerTypes.splice(soleIndex, 1);
+    }
+    
+    return data;
+}
+
+window.TransformContentData = function(data) {
+    
+    return data;
+}
+
+
+window.TransformFlatProducts = function(data) {
+    
+    
+    return data;
+}

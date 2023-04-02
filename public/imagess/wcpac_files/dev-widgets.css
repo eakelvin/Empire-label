@@ -1,0 +1,88 @@
+.filter .vhd-container .vhd-input {
+	font-size: 19px !important;
+	line-height: 28px !important;
+}
+
+.site-logo img {
+	width: 75px;
+}
+
+.product .col-price {
+	align-self: flex-start;	
+}
+
+.product .col-quantity {
+	align-self: flex-start;	
+}
+
+.col-price select {
+	margin-top: 15px;	
+    border: #263050 solid 1px !important;
+	padding: 10px !important;
+    font-size: 12px !important;
+}
+
+.col-quantity .product-quantities {
+	margin-top: 15px;	
+}
+
+.vhd-container .vhd-input::placeholder {
+	font-size: 17px !important;
+}
+
+#filters > div.olympic-filters > div.description > div > div > input {
+	background: url(/media/1938/searchicon.png?width=20) no-repeat;
+    background-size: 20px 20px;
+    padding-left: 35px;
+}
+
+div.checkout-form > div > form > div:nth-child(6) > div.accordion-item-panel > div > div:nth-child(8) {
+display:none;
+}
+
+@media (max-height: 850px) {
+	.noc-sweet-alert .sweet-alert {
+		margin-top: -210px !important;
+	}
+}
+
+.fi-cookie-banner a.fi-cookie-banner__content {
+    position: relative;
+    padding-right: 10px;
+}
+
+.generic-request-form .form .dropdown {
+	/*color: #C7C7C7 !important;*/
+}
+
+.generic-request-form #submitButton img{
+	margin-right: 40px !important;
+}
+
+.thank-you-box p{
+	color: #8a1539 !important;
+}
+
+header .floating-menu-container {
+	position: relative;
+}
+header .floating-menu-container .fwc22-floatingmenu {
+	right: 0;
+}
+.lang-ar header .floating-menu-container .fwc22-floatingmenu{
+	right: auto;
+	left: 0;
+}
+
+@media (min-width: 1024px) {
+	.fi-section-header.navbar-fixed-top .fi-section-header__competition__title {
+		font-size: 1.2em !important;
+	}
+	.de .fi-section-header.navbar-fixed-top .fi-section-header__competition__title {
+		font-size: 1.05em !important;
+	}
+}
+
+.optanon-alert-box-wrapper  {
+	display: none !important;
+}

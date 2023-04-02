@@ -1,0 +1,1470 @@
+:root {
+    --base-color: #8a1539;
+    --base-text-color: white;
+    --base-font-family: Open Sans,Arial;
+    --base-corp-font-thin: "Qatar2022-Book-Arabic";
+    --base-corp-font-medium: "Qatar2022-Medium-Arabic";
+    --base-corp-font-bold: "Qatar2022-Bold-Arabic";
+    --base-font-size: 14px;
+    --base-color-active-things: #8a153940;
+    --base-color-hover-things: #8a153912;
+    --base-color-secondary: #baa256;
+    --base-border-color: lightgrey;
+}
+
+[lang="ru"] {
+    --base-corp-font-thin: 'RobotoMedium';
+    --base-corp-font-medium: 'RobotoRegular';
+    --base-corp-font-bold: 'RobotoBlack';
+    --base-font-family: 'RobotoMedium';
+}
+
+.ecommerce * {
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+}
+
+/*.ecommerce h1, .ecommerce h2, .ecommerce h3, .ecommerce h4, .ecommerce h5, .ecommerce h6 {
+    margin-bottom: 30px;
+}*/
+
+.ecommerce h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 7px;
+    margin: 0 0 10px 0;
+    background: var(--base-color);
+    color: var(--base-text-color);
+}
+
+/*.ecommerce .input-row,
+.ecommerce .check-row {
+    margin-bottom: 25px;
+}*/
+
+    .ecommerce .input-row .input-title,
+    .ecommerce .check-row .check-title,
+    .ecommerce .radio-row .radio-title {
+        margin-bottom: 10px;
+    }
+
+        .ecommerce .input-row .input-title label,
+        .ecommerce .check-row .check-title label,
+        .ecommerce .radio-row .radio-title label {
+            padding-top: 10pt;
+            font-weight: bold;
+        }
+
+    .ecommerce .input-row input[type=text],
+    .ecommerce .input-row input[type=password],
+    .ecommerce .input-row input[type=number],
+    .ecommerce .input-row .vs__dropdown-toggle,
+    .ecommerce .input-row .input-password {
+        border: 1px solid #ccc;
+        height: 40px;
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+    .ecommerce .input-row .vs__selected {
+        background-color: var(--base-color) !important;
+        margin: 3px 3px 3px 3px !important;
+        padding: 0px 6px 0 6px !important;
+        font-weight: 600;
+        color: white;
+    }
+    /* Firefox */
+    .ecommerce .input-row input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .ecommerce .check-row .check input[type="checkbox"],
+    .ecommerce .radio-row .radio input[type="radio"] {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        position: absolute;
+        width: auto;
+    }
+
+        .ecommerce .check-row .check input[type="checkbox"]:checked + label:after,
+        .ecommerce .radio-row .radio input[type="radio"]:checked + label:after {
+            content: "";
+            top: 1px;
+            left: -25px;
+        }
+
+    .ecommerce .check-row .check label,
+    .ecommerce .radio-row .radio label {
+        position: absolute;
+        margin-left: 25px;
+    }
+
+.ecommerce .radio-row input[type=radio]:not(old) + label,
+.ecommerce .radio-row input[type=radio]:checked + label {
+    background-image: none;
+}
+
+.ecommerce .check-row .check label:before,
+.ecommerce .radio-row .radio label:before {
+    position: absolute;
+    top: 1px;
+    left: -25px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 2px solid var(--base-color);
+}
+
+.ecommerce .check-row .check label:after,
+.ecommerce .radio-row .radio label:after {
+    position: absolute;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: var(--base-color);
+    background-image: url(/media/1793/form-check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ecommerce .check-row .check-text,
+.ecommerce .radio-row .radio-text {
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.ecommerce .input-row .select-dropdown {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    box-sizing: border-box;
+    background-image: url(/CDN/Content/images/common/arrow-down.png);
+    background-size: 10px;
+    background-position: 97% 50%;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.ecommerce .error,
+.ecommerce .input-row .error {
+    font-size: 11px;
+    color: red;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ecommerce .input-row .error {
+    margin-bottom: 1em;
+}
+
+.ecommerce .address-container .active, .ecommerce .contact-container .active {
+    background-color: #8a153940 !important;
+}
+
+.ecommerce .address-container .line:hover, .ecommerce .contact-container .line:hover {
+    background-color: #8a153912;
+}
+
+.ecommerce .address-container .active:hover, .ecommerce .contact-container .active:hover {
+    background-color: #8a153940;
+}
+
+.checkout-summary .summary-container .summary-content .product .eventName {
+    font-size: 16px;
+}
+
+.checkout-summary .summaryTitle {
+    font-size: 22px;
+}
+
+.checkout-summary .summaryTitle,
+.checkout-summary .summary-container .summary-content .product .eventName,
+.checkout-summary .summary-container .summary-content .product .productTypeName,
+.checkout-summary .summary-container .summary-content .product .sessionsTitle,
+.checkout-summary .summary-container .summary-content .product .categoryTitle,
+.checkout-summary .summary-container .summary-content .product .categoryName {
+    font-weight: bold !important;
+}
+
+.checkout-summary .summary-container .summary-content .product .sessionList p.session {
+    font-size: 11pt;
+}
+
+.checkout-summary .summary-container .summary-content .product .productTypeName,
+.checkout-summary .summary-container .summary-content .product .categoryTitle {
+    margin-bottom: 0 !important;
+}
+
+.checkout-summary .summary-container .summary-content .product .product-amount label {
+    font-size: 11px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+/**********************************/
+/**********  Pre Footer  **********/
+/**********************************/
+
+.fi-pre-footer {
+    background-color: var(--base-color);
+    margin-bottom: 0;
+    padding: 40px;
+}
+.fi-footer-link {
+    display: flex;
+    flex-flow: row wrap;
+}
+.fi-footer-link > * {
+    flex: 1 100%;
+}
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.footer-navigation li {
+    padding: 0 10px;
+    list-style: none;
+}
+.footer-navigation li a {
+    color: #fff;
+    fill: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .fi-pre-footer {
+        overflow: hidden;
+        background-size: initial;
+    }
+    .fi-pre-footer .container-fluid {
+        overflow: visible;
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) {
+    .fi-footer-link {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    section.FWC22Content {
+        padding-top: 0;
+    }
+}
+
+
+/**********************************/
+/************  Footer  ************/
+/**********************************/
+
+.fi-site-footer {
+    background-color: #fff;
+}
+.container-fluid, .fi-videolist__quicklink {
+    max-width: 1200px;
+    min-width: auto;
+}
+.fi-site-footer__copyright {
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.fi-site-footer .fi-site-footer__copyright {
+    color: #326295;
+}
+.fi-site-footer .fi-site-footer__copyright .fifa-icon {
+    background-size: cover;
+    width: 98px;
+    height: 30px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%22100px%22%20height%3D%2232px%22%3E%23%3Cpath%20fill%3D%22%23326295%22%20stroke%3D%22rgba(0,0,0,0)%22%20stroke-width%3D%220%22%20style%3D%22%22%20d%3D%22M-0.001 0v31.997h10.106v-11.553h7.022l2.73-6.994h-9.752v-6.492h11.87l2.589-6.958h-24.565zM27.654 0l-0.018 31.997h9.989v-31.997h-9.971zM76.826 21.545l3.848-13.323 3.986 13.323h-7.834zM86.023 0h-10.372l-11.501 32h9.655l1.243-4.303h11.254l1.301 4.303h9.95l-11.531-32zM44.523 0v31.997h10.1v-11.553h7.015l2.749-6.994h-9.764v-6.492h11.874l2.608-6.958h-24.583zM95.434 3.411h0.693c0.116 0 0.224-0.010 0.327-0.026 0.104-0.010 0.195-0.042 0.276-0.078 0.078-0.042 0.146-0.107 0.189-0.192 0.047-0.081 0.072-0.188 0.072-0.336 0-0.125-0.025-0.225-0.077-0.303-0.051-0.074-0.12-0.135-0.198-0.17-0.083-0.047-0.176-0.075-0.279-0.090-0.096-0.010-0.2-0.017-0.3-0.017h-0.704v1.211zM94.636 1.603h1.58c0.515 0 0.905 0.092 1.166 0.281 0.263 0.192 0.396 0.512 0.396 0.959 0 0.363-0.093 0.633-0.287 0.813-0.197 0.179-0.471 0.285-0.819 0.324l1.136 1.852h-0.809l-1.094-1.823h-0.471v1.823h-0.798v-4.229zM96.083 6.742c0.393 0 0.761-0.075 1.102-0.221 0.344-0.15 0.638-0.363 0.894-0.629 0.254-0.27 0.456-0.587 0.611-0.956 0.143-0.374 0.216-0.771 0.216-1.205 0-0.437-0.074-0.839-0.216-1.208-0.155-0.369-0.357-0.686-0.611-0.953-0.257-0.273-0.551-0.476-0.894-0.629-0.341-0.146-0.708-0.219-1.102-0.219s-0.761 0.074-1.103 0.219c-0.344 0.153-0.642 0.356-0.899 0.629-0.252 0.267-0.453 0.584-0.606 0.953-0.147 0.369-0.219 0.771-0.219 1.208 0 0.434 0.072 0.831 0.219 1.205 0.153 0.369 0.354 0.686 0.606 0.956 0.257 0.266 0.555 0.479 0.899 0.629 0.342 0.146 0.71 0.221 1.103 0.221zM96.083 7.47c-0.516 0-1.006-0.104-1.46-0.302-0.447-0.195-0.84-0.459-1.184-0.803-0.336-0.335-0.603-0.732-0.795-1.184-0.2-0.452-0.294-0.938-0.294-1.45 0-0.519 0.095-1.003 0.294-1.453 0.192-0.452 0.459-0.843 0.795-1.184 0.344-0.338 0.737-0.603 1.184-0.8 0.455-0.203 0.944-0.294 1.46-0.294 0.515 0 1.001 0.092 1.451 0.294 0.452 0.197 0.849 0.462 1.184 0.8 0.336 0.341 0.608 0.732 0.801 1.184 0.195 0.45 0.294 0.933 0.294 1.453 0 0.512-0.099 0.998-0.294 1.45-0.194 0.452-0.465 0.849-0.801 1.184-0.335 0.344-0.732 0.608-1.184 0.803-0.45 0.198-0.936 0.302-1.451 0.302z%22%20%2F%3E%3C%2Fsvg%3E")
+}
+.fi-footer-menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+.fi-site-footer__right.links {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.fi-footer-menu li {
+/*    width: 33% !important;*/
+    text-align: center !important;
+}
+.fi-footer-menu li > a {
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    backface-visibility: hidden;
+}
+.fi-site-footer .fi-footer-menu li > a {
+    color: #326295;
+    font-size: 10pt;
+}
+.fi-site-footer__row2 {
+    clear: both;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.fi-site-footer .fi-site-footer__row2 {
+    color: #326295;
+    font-size: 11pt;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .visible-md {
+        display: block !important;
+    }
+}
+@media (min-width: 1024px) {
+    .fi-site-footer__copyright {
+        text-align: left;
+        width: 120px;
+    }
+
+    .fi-site-footer__right {
+        margin-top: 30px;
+    }
+
+    .fi-footer-menu {
+        padding-top: 0;
+    }
+
+    .fi-footer-menu li {
+        width: auto;
+        padding: 0 10px;
+        text-align: left;
+    }
+}
+
+.ecommerce .input-row select#currencyId.select-dropdown {
+    background-image: url(/CDN/Content/images/common/fwc22-arrow-down.PNG);
+    background-size: 44px;
+    background-position: 100% 50%;
+}
+
+.headerSeparator {
+    height: 125px !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .ecommerce h5 {
+        margin: 15px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .column {
+        padding: 0;
+    }
+
+    .headerSeparator {
+        height: 111px !important;
+    }
+}
+
+.vs__actions {
+    background: var(--base-color);
+    padding: 8px;
+}
+
+.vs__open-indicator {
+    fill: white;
+}
+
+.vs__clear {
+    fill: white;
+    border-right: 4px solid white;
+    padding-right: 12px;
+}
+
+#PageTopBanner, .smart-slider {
+    margin-top: -105px;
+}
+
+@media (max-width: 991px) {
+    #PageTopBanner, .smart-slider {
+        margin-top: 0;
+    }
+
+    .content-wrap.fi-basic-template {
+        padding-top: 1em;
+    }
+}
+
+/* AddToCart FWC22 */
+.smart-slider-wrapper .content {
+    z-index: 4 !important;
+}
+
+.mx-icon-calendar svg {
+    fill: var(--base-color-secondary);
+}
+
+.vs__dropdown-option {
+    white-space: normal !important;
+}
+
+/*Layouts*/
+
+.f-container, .container {
+    background-color: white;
+}
+
+section.FWC22Content {
+    background: white;
+}
+
+.hero-area .row {
+	margin: 0 auto !important;
+}
+
+.hero-area .hero-video {
+    position: relative;
+}
+
+.hero-area .hero-video #heroVideo {
+    width: 100%;
+}
+
+.hero-area .hero-video:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(0%, rgba(0,0,0,0)), to(rgba(0,0,0,0.4)));
+    background: linear-gradient(0, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%);
+}
+
+.hero-area .hero-video #textOverlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+.content p {
+    margin: 0;
+}
+
+.social-links p {
+    display: flex;
+}
+
+/*My Orders*/
+
+.order-summary-title h2 {
+    font-family: var(--base-corp-font-medium);
+}
+
+.ecommerce.my-preferences input[type=checkbox]:checked + label,
+.ecommerce.my-preferences input[type=radio]:checked + label,
+.ecommerce.my-preferences input[type=checkbox]:not(old) + label,
+.ecommerce.my-preferences input[type=radio]:not(old) + label {
+    background-image: none;
+    padding: 0;
+}
+
+.ecommerce.shipping-preferences .order-select .vs__dropdown-toggle {
+    border: 1px solid #d3d3d3;
+}
+
+.contact-box .form label {
+    min-height: 25px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.generic-request-form .form .check-text label {
+    color: white !important;
+}
+
+.check input[type=checkbox]:checked + label,
+.check input[type=radio]:checked + label {
+    background-image: url(/CDN/FIFA_Content/images/Common/checked-gold-Fifa.png);
+}
+
+.FWC22content .checkout-payment input[type="radio"]:checked + label:before,
+.FWC22content .checkout-payment input[type="radio"]:not(:checked) + label:before {
+    display: none;
+}
+
+.FWC22content .checkout-payment input[type="radio"]:checked + label:after,
+.FWC22content .checkout-payment input[type="radio"]:not(:checked) + label:after {
+    display: none;
+}
+
+.show-pass-desc p {
+    margin: 15px 0px 5px 0px;
+    font-size: 12px;
+}
+
+.newshoppingcart .productSessions .subTitle svg {
+    display: none;
+}
+
+.check-row .check-text label {
+    color: grey;
+}
+
+.check-row .wrap-legal-check {
+    color: grey;
+}
+.input-row.forgot-mail input {
+    color: #666;
+}
+
+
+@media (min-width: 992px) {
+    .arrowUpContainer:hover {
+        background-color: #8a1539;
+    }
+}
+.arrowUpContainer {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    padding: 30px;
+    z-index: 997;
+    cursor: pointer;
+    background-image: url(../CDN/FIFA_Content/images/Common/arrows/white-arrow-up.png);
+    background-color: var(--base-color-secondary);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.3s linear;
+}
+.arrowUpContainer img {
+    width: 25px;
+    margin: 15px;
+    filter: grayscale(1) brightness(5);
+}
+
+.lang-ar .arrowUpContainer {
+    left: 0;
+    right: initial;
+}
+
+.zsiq_custommain.moveit {
+    right: 60px;
+    transition: all 0.3s linear;
+}
+.lang-ar .zsiq_custommain.moveit {
+    right: initial;
+    left: 60px;
+    transition: all 0.3s linear;
+}
+
+
+/**********************************/
+/**********  AR Styles  ***********/
+/**********************************/
+
+/* New Checkout */
+
+.lang-ar .ecommerce .steps {
+    border: none;
+    border-left: 3px solid #D1D1D1;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.lang-ar .ecommerce .step .step-header .title-wrapper .title {
+    margin-right: 1em;
+}
+
+.lang-ar .ecommerce .checkout-register .form-wrap .column:first-child {
+    padding-left: 10px;
+}
+
+.lang-ar .ecommerce .checkout-register .form-wrap .column:last-child {
+    padding-right: 10px;
+}
+
+.lang-ar .ecommerce.checkout-register .submit-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.lang-ar .ecommerce .input-row .select-dropdown {
+    background-position: 5% 50%;
+}
+
+.lang-ar .ecommerce .Password__icons {
+    right: unset;
+    left: 0;
+}
+
+    .lang-ar .ecommerce .Password__icons .Password__toggle {
+        margin-left: 13px;
+    }
+
+.lang-ar .ecommerce .input-row .vs__dropdown-toggle {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.lang-ar .ecommerce .input-row .vs__dropdown-toggle .vs__search {
+    text-align: right;
+}
+
+.lang-ar .ecommerce .input-row .vs__dropdown-toggle .vs__actions {
+    padding-left: 6px;
+    padding-right: 3px;
+}
+
+/*.lang-ar .ecommerce .input-row .vs__dropdown-toggle .vs__selected-options {
+    flex-direction: row-reverse;
+}*/
+
+.lang-ar .ecommerce .input-row .vs__dropdown-menu {
+    text-align: right;
+}
+
+.lang-ar .ecommerce .check-row .check-text,
+.lang-ar .ecommerce .check-row .radio-text {
+    margin-right: 35px;
+}
+
+.lang-ar .ecommerce .check-row .check label,
+.lang-ar .ecommerce .radio-row .radio label {
+    margin-right: -75px;
+}
+
+.lang-ar .ecommerce .check-row .check label,
+.lang-ar .ecommerce .radio-row .radio label {
+    margin-right: -75px;
+}
+
+.lang-ar .ecommerce .radio-row {
+    margin-right: 33px;
+}
+
+.lang-ar .ecommerce.checkout-customer .submit-btn button {
+    float: left;
+}
+
+.lang-ar .ecommerce .step .edit-wrapper button.edit-billing-address,
+.lang-ar .ecommerce .step .edit-wrapper button.edit-shipping-address {
+    right: auto !important;
+    left: 20px;
+}
+
+.lang-ar .ecommerce .customer-option .address {
+    margin-right: 30px;
+    margin-top: .5em;
+}
+
+.lang-ar .ecommerce.checkout-customer-select .submit-btn button {
+    float: left;
+}
+
+.lang-ar .ecommerce.checkout-address-contact .submit-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.lang-ar .ecommerce .address-container .address,
+.lang-ar .ecommerce .address-container .contact,
+.lang-ar .ecommerce .contact-container .address,
+.lang-ar .ecommerce .contact-container .contact {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 975px) {
+    .lang-ar .ecommerce .steps {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .tab-list .tab {
+        padding: 10px 2%;
+    }
+}
+
+.lang-ar .arrowUpContainer {
+    left: 0;
+    right: initial;
+}
+
+/*Header arabic*/
+
+.lang-ar .fwc22-eco-floating-menu a:nth-child(2) {
+    margin-right: 15px;
+}
+
+.lang-ar .fwc22-eco-floating-menu .login-name {
+    margin: 0 10px;
+}
+
+a.header-search-icon.js-header-search svg {
+    margin-bottom: 8px;
+}
+
+/*TSS arabic*/
+
+.lang-ar .quantity-selector.select-menu {
+ width: 50px;
+ height: 50px;
+}
+
+.lang-ar .quantity-selector.select-menu .quantity-select-dropdown {
+    padding: 0;
+}
+
+.lang-ar .round-types .filterCheck+.filterLabelCheck {
+    padding-right: 25%;
+    padding-left: 0%;
+}
+
+.lang-ar .checkout-address-contact .shipping-tabs .tab-option .icon {
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.fi-site-header__top .fi-site-brand {
+    height: 30px !important;
+}
+
+.logo-links-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.fi-site-footer__row1 ul.fi-footer-menu + p {
+    display: none;
+}
+
+.fi-site-footer__row1 p {
+    display: none !important;
+}
+
+.fi-site-footer__row2 {
+    padding-top: 0;
+}
+
+@media (max-width: 768px) {
+    .logo-links-wrapper {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .fi-site-footer__copyright {
+        width: 100%;
+    }
+
+    ul.fi-footer-menu {
+        width: 100%;
+    }
+
+    .fi-site-footer__row1 {
+        margin: 0 auto;
+    }
+
+    .fi-footer-menu li {
+        width: unset !important;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 998px) {
+    .fi-site-footer__row1 {
+        width: 70%
+    }
+}
+
+.lang-ar.registration-page .fi-site-footer__row2 {
+    padding-top: 10px !important;
+}
+
+.lang-ar .container-fluid.floating-menu-container {
+    max-width: unset;
+}
+
+.lang-ar .fwc22-floatingmenu .floatingNewsletterButton-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.prefooter-registration-page section.section.fi-pre-footer {
+    background: black;
+    border-top: 5px solid var(--base-color-secondary);
+    border-bottom: 5px solid var(--base-color-secondary);
+}
+
+.prefooter-registration-page .container-fluid {
+    background: black;
+    padding-bottom: 2em;
+}
+
+.prefooter-registration-page .social-item a:hover {
+    color: var(--base-color-secondary) !important;
+}
+
+.registration-page .contact-details-corp img.fifa22-logo {
+    height: 100px;
+}
+
+.registration-page img.match22-logo {
+    height: 80px;
+}
+
+.lang-ar .v-select.vs--searchable input.vs__search {
+    text-align: end;
+}
+
+/*.lang-ar .v-select.vs--searchable li.vs__dropdown-option {
+    text-align: end;
+}*/
+
+.flight-hotel-search .error {
+    color: #cf0a2c;
+    font-size: small;
+    font-family: var(--base-corp-font-thin);
+}
+
+@media all and (max-width: 1440px) {
+    [lang="ru"] .primary-nav > ul > li {
+        padding: 15px 0 15px;
+    }
+}
+
+[lang="ru"] .site-header.-compact .primary-nav > ul > li {
+    padding-bottom: 10px;
+}
+
+.lang-ar .form-dates input {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/*Live chat for Arabic*/
+
+.lang-ar .siq_bR {
+    left: 10px;
+    right: unset;
+}
+
+.lang-ar .zsiq-newtheme.zls-sptwndw {
+    right: unset;
+    left: 5px;
+}
+
+.lang-ar .win_close {
+    float: left !important;
+}
+
+.lang-ar .outerwin input[type="text"],
+.lang-ar .editfields input[type="text"],
+.lang-ar .siq-chat-attender-name,
+.lang-ar .siq-chat-attender-name,
+.lang-ar .msgarea {
+    text-align: right !important;
+}
+
+@media (min-width: 569px) and (max-width: 767px) {
+    .hero-area.-simple h1, .hero-area.-simple .-h1-font {
+        font-size: 3rem;
+    }
+}
+
+html[dir="rtl"] section.stadium-hosted-fixtures .stadium-hosted-fixtures-item-time {
+    direction: rtl;
+}
+
+html[dir="rtl"] section.stadium-hosted-fixtures .stadium-hosted-fixtures-listing-item-match-detail__date {
+    direction: rtl;
+}
+
+/*@media not all and (min-resolution:.001dpcm) {
+    .product-features-inner > div {
+        width: unset !important;
+    }
+}*/
+
+.item-fax {
+    display: none;
+}
+
+@media (min-width: 993px) {
+    .hotel-flights-dropdown .footer-action-buttons .atc-button-wrapper.btn-left {
+        margin-right: 50px;
+    }
+
+    .hotel-flights-dropdown .footer-action-buttons .atc-button-wrapper.btn-right {
+        margin-left: 50px;
+    }
+}
+
+.primary-nav > ul > li {
+    max-height: 65px;
+}
+
+.stadium-listing {
+    margin-top: 6%;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: var(--base-color);
+    font-size: 35px;
+    opacity: 0.7;
+}
+
+[dir=rtl] .slick-prev {
+    right: -35px;
+}
+
+.hero-area + * {
+    z-index: unset;
+}
+
+.ecommerce.newshoppingcart .productMobile .sessions {
+    background-color: #eeeee4;
+}
+
+@media (max-width: 992px) {
+    .content .match-house-card__description span p {
+        font-size: 1.2em;
+    }
+    .FWC22Content #smp-category__modal .smp-category__dialog {
+        top: 10px;
+        height: 100%;
+    }
+}
+
+.product .productSessions {
+    background-color: #eeeee4;
+}
+
+.product .productSummary.inline .select-quantity {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 100%;
+    background: transparent;
+    box-sizing: border-box;
+    background-image: url(/CDN/FIFA_Content/images/Common/select-arrow.png);
+    background-size: 40px;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.newshoppingcart.ecommerce .input-row .select-dropdown {
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-image: url(/CDN/FIFA_Content/images/Common/select-arrow.png);
+    background-position: 100% 50%;
+}
+
+.lang-ar .newshoppingcart.ecommerce .input-row .select-dropdown,
+.lang-ar .product .productSummary.inline .select-quantity {
+    background-position: 10% 50%;
+}
+
+.primary-nav .explore-packages .primary-nav__sub-menu ul .accomodation ul li {
+    display: none;
+}
+
+.primary-nav .explore-packages .primary-nav__sub-menu ul .accomodation:hover ul li {
+    display: initial;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .site-header__inner {
+        padding: 10px 20px;
+    }
+    .language-selector__options {
+        left: 20%;
+    }
+}
+
+[lang="ru"] .primary-nav > ul > li > a {
+    padding: 10px;
+    line-height: 18px;
+}
+
+.travel-icon {
+    position: absolute;
+    margin: 12px 6px;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.travel-icon path {
+    fill: var(--base-color-secondary)
+}
+
+.travel-icon.disabled path {
+    fill: var(--base-color-secondary);
+}
+
+.search-hotel-form .guest-selects .v-select-search.seats .vs__search,
+.search-flight-hotel-form .v-select-search.room .vs__search {
+    background-image: none;
+}
+
+.flight-hotel-search span.top-search-disclaimer-label,
+.flight-hotel-search p.form-info-description {
+    font-size: 14px;
+    font-family: var(--base-corp-font-thin);
+}
+
+[lang="ru"] button.swal2-cancel.swal2-styled span:after,
+[lang="ru"] button.swal2-confirm.swal2-styled span:after {
+    right: -127px !important;
+}
+
+[lang="ru"] button.swal2-cancel.swal2-styled span:before,
+[lang="ru"] button.swal2-confirm.swal2-styled span:before {
+    left: -127px !important;
+}
+
+[lang="ru"] button.swal2-confirm.swal2-styled:after {
+    right: -10px !important;
+}
+
+[lang="ru"] button.swal2-confirm.swal2-styled:before {
+    left: -10px !important;
+}
+
+@media (max-width: 424px) {
+    [lang="ru"] button.swal2-cancel.swal2-styled span:after,
+    [lang="ru"] button.swal2-confirm.swal2-styled span:after {
+        right: -85px !important;
+    }
+
+    [lang="ru"] button.swal2-cancel.swal2-styled span:before,
+    [lang="ru"] button.swal2-confirm.swal2-styled span:before {
+        left: -85px !important;
+    }
+}
+
+.checkout-payment input[type=radio]:checked + label:before,
+.checkout-payment input[type=radio]:checked + label:after,
+.checkout-payment input[type=radio]:not(:checked) + label:before {
+    display: none;
+}
+
+.contact-box option {
+    color: #777;
+}
+
+/*POP-UPS*/
+button.swal2-cancel.swal2-styled span {
+    display: block;
+}
+
+button.swal2-cancel.swal2-styled span:before {
+    left: -40px !important;
+}
+
+button.swal2-cancel.swal2-styled span:after {
+    right: -40px !important;
+}
+
+
+/*NAVBAR*/
+.explore-packages-submenu .icon * {
+    height: 25px;
+    margin: 10px 5px;
+}
+
+.explore-packages-submenu {
+    display: flex;
+    border: 2px solid var(--base-color-secondary);
+    background-color: rgba(0,0,0,0.8);
+    padding-bottom: 10px;
+    min-width: 650px;
+    margin-top: 10px;
+    cursor: initial;
+}
+
+.explore-packages-submenu .product-column {
+    flex-basis: 33%;
+}
+
+.travel-btn {
+    border: 1px solid white;
+    margin: 5px auto;
+    height: 35px;
+    width: 80%;
+}
+
+.travel-btn p {
+    margin-bottom: 0;
+    line-height: 35px;
+    color: #fff;
+    font-family: var(--base-corp-font-medium);
+}
+
+.btn-image {
+    border: 1px solid;
+    width: 80%;
+    height: 115px;
+    margin: 5px auto 0;
+    cursor: pointer;
+}
+
+.btn-image p {
+    line-height: 110px;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: var(--base-corp-font-medium);
+    text-shadow: 0 0 5px black;
+}
+
+.products-links ul li {
+    line-height: 24px;
+}
+
+.products-links ul li a {
+    padding: 0;
+}
+
+.explore-packages-submenu .icon img {
+    -webkit-filter: brightness(10);
+    filter: brightness(10);
+}
+
+.travel-btn:hover {
+    cursor: pointer;
+    background: var(--base-color-secondary);
+}
+
+.product-column .btn-image {
+    background-size: cover;
+    background-position: 50%;
+}
+
+.product-column.hospitality .btn-image {
+    background-image: url(/media/2310/frs_2_.jpg?width=171);
+}
+
+.product-column.offsite .btn-image {
+    background-image: url(/media/3398/byhosppro_hero2_1920x750.jpg?width=171);
+}
+
+.btn-image:hover {
+    border: 1px solid var(--base-color-secondary);
+}
+
+.btn-image:hover p {
+    color: var(--base-color-secondary);
+}
+
+.explore-packages .primary-nav__sub-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger-menu .explore-packages-submenu {
+    border: none;
+    flex-direction: column;
+    min-width: unset;
+}
+
+.hamburger-menu .explore-packages-submenu .product-column {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.hamburger-menu .icon {
+    display: inline;
+    flex-basis: 10%;
+    min-width: 40px;
+}
+
+.hamburger-menu .products-links {
+    flex-basis: 80%;
+}
+
+.hamburger-menu .bottom-content {
+    flex-basis: 90%;
+    margin-left: 40px;
+}
+
+.has-children.explore-packages .hamburger-menu-list__sub-list ul {
+    padding: 0;
+}
+
+.hamburger-menu .product-column .btn-image {
+    background-image: none;
+    height: 30px;
+    margin: 10px 0 0;
+    width: 90%;
+}
+
+.hamburger-menu .product-column .btn-image p {
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.hamburger-menu .travel-btn p {
+    line-height: 30px;
+}
+
+.hamburger-menu .travel-btn {
+    height: 30px;
+    width: 90%;
+    margin: 10px 0 0;
+}
+
+.hamburger-menu .has-children.explore-packages .products-links ul li {
+    line-height: 22px;
+    color: white;
+}
+
+.hamburger-menu .explore-packages-submenu .icon * {
+    margin-bottom: 0;
+    height: 22px;
+    margin: 5px;
+}
+
+.hamburger-menu .explore-packages-submenu .product-column:last-of-type {
+    margin-bottom: 0;
+}
+
+.hamburger-menu .has-children.explore-packages .travel .products-links ul li {
+    line-height: 26px;
+}
+
+.hamburger-menu .travel-btn p {
+    font-size: smaller;
+    text-align: center;
+}
+
+.hamburger-menu .travel-btn:hover {
+    background: transparent;
+    border: 1px solid var(--base-color-secondary);
+}
+
+.hamburger-menu .travel-btn:hover p {
+    color: var(--base-color-secondary);
+}
+
+.lang-ar .hamburger-menu .bottom-content {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.generic-request-form .form .dropdown {
+    color: #8f8f8f !important;
+}
+
+.newshoppingcart .sessionsHeader .deleteImage {
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.stadium-hosted-fixtures-listing-item-match-detail__team {
+    flex-direction: column !important;
+    align-items: center;
+}
+
+.stadium-hosted-fixtures-listing-item-match-detail__team img {
+    width: 50px;
+    height: 35px;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 1px solid #e7e7e7;
+    max-width: fit-content;
+}
+
+.stadium-hosted-fixtures-listing-item-match-detail__date {
+    width: 60%;
+}
+}
+
+.assign-guest-title {
+    flex-basis: 70%;
+}
+
+.add-new-guest {
+    flex-basis: 30%;
+    text-align: end;
+}
+
+.special-request-order-line-content {
+    background-color: #ede9e5;
+    padding: 1rem;
+}
+
+.special-request-order-line-content p:first-of-type {
+    margin-top: 0;
+}
+
+.special-request-order-line-content p:last-of-type {
+    margin-bottom: 5px;
+}
+
+.FWC22Content .ecommerce.myAccountComponent .special-request-group-type li {
+    margin: 0 2rem;
+}
+
+/*Payment popups*/
+
+#FIFA-Payment button.swal2-confirm.swal2-styled:after {
+    border-left: 12px solid var(--base-color);
+    right: -13px;
+}
+
+#FIFA-Payment button.swal2-confirm.swal2-styled:before {
+    border-right: 12px solid var(--base-color);
+    left: -13px;
+}
+
+#FIFA-Payment button.swal2-confirm.swal2-styled:before,
+#FIFA-Payment button.swal2-confirm.swal2-styled:after,
+#FIFA-Payment button.swal2-confirm.swal2-styled:before,
+#FIFA-Payment button.swal2-confirm.swal2-styled:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    z-index: 1;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled,
+#FIFA-Payment button.swal2-cancel.swal2-styled span {
+    position: relative;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled:after {
+    border-left: 8px solid var(--base-color);
+    position: absolute;
+    right: -9px;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled span:after {
+    border-left: 12px solid #baa457;
+    position: absolute;
+    right: -140px;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled:before {
+    border-right: 9px solid var(--base-color);
+    position: absolute;
+    left: -9px;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled span:before {
+    border-right: 14px solid #baa457;
+    position: absolute;
+    left: -140px;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled:before,
+#FIFA-Payment button.swal2-cancel.swal2-styled:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled:after,
+#FIFA-Payment button.swal2-cancel.swal2-styled:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+#FIFA-Payment button.swal2-cancel.swal2-styled span:before,
+#FIFA-Payment button.swal2-cancel.swal2-styled span:after,
+#FIFA-Payment button.swal2-cancel.swal2-styled span:before,
+#FIFA-Payment button.swal2-cancel.swal2-styled span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    z-index: 1;
+}
+
+.login__modal .entityLogin, .login__modal .entityLogin .forgot-password, .login__modal .accountRegistration {
+    width: 100%;
+}

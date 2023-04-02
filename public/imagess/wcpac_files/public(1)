@@ -1,0 +1,31 @@
+@font-face{font-family:'Qatar2022-Book-Arabic';src:url("https://hospitality.fifa.com/css/fonts/Arabic/Qatar2022Arabic-Book.woff") format("woff"),url("/css/fonts/Arabic/Qatar2022Arabic-Book.woff2") format("woff2"),url("/css/fonts/Arabic/Qatar2022Arabic-Book.eot") format("eot");font-weight:normal;font-style:normal}
+
+@font-face{font-family:'Roboto';src:url("https://hospitality.fifa.com/cdn/FIFA_Content/fonts/roboto-medium.ttf") format("truetype");font-weight:normal;font-style:normal}
+
+@media only screen and (max-width: 555px) and (min-width: 100px)
+{
+body div.zsiq-newtheme.zsiq-mobhgt[embedtheme] {
+    height: 80% !important;
+    width: 100% !important;
+}
+}
+
+body .win_close.sqico-larrow {
+    top: 87px;
+    z-index: 10000;
+}
+
+body, body input {
+	font-family: "Qatar2022-Book-Arabic", "Roboto", Arial, Helvetica, sans-serif !important;	
+}
+
+div#attname {
+    text-overflow: unset;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.cmplogo {    
+    background-color: black;    
+}

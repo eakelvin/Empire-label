@@ -1,0 +1,20 @@
+
+.flag {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.fix {
+  width: 285px;
+  height: 300px;
+}
+
+.big {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.try {
+  border-bottom-left-radius: 100px;
+}
